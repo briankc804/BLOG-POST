@@ -4,7 +4,11 @@ This application allows users to make minute blogs and they can comment on diffe
 
   AUTHOR
 
-Brian Kiplangat Cheruiyot  
+Brian Kiplangat Cheruiyot 
+
+  LIVE LINK
+
+view site here (https://pishori.herokuapp.com/)  
 
   LICENSE
 
