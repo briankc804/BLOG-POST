@@ -16,6 +16,7 @@
            
           </div>
         {% endif %}
+        <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{{ url_for('comment', post_id=post.id) }}">comment</a>
       </div>
       <h2 class="article-title">{{ post.title }}</h2>
       <p class="article-content">{{ post.content }}</p>

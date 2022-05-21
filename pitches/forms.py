@@ -4,6 +4,7 @@ from flask_login import current_user
 from wtforms import StringField, PasswordField, SubmitField, BooleanField, TextAreaField
 from wtforms.validators import DataRequired, Length, Email, EqualTo,ValidationError
 from pitches.models import User
+from wtforms.validators import DataRequired
 
 
 class RegistrationForm(FlaskForm):
@@ -74,4 +75,8 @@ class PostForm(FlaskForm):
     content = TextAreaField('Content',validators=[DataRequired()])
     submit = SubmitField('Post')
                  
-        
+
+
+class CommentForm(FlaskForm):
+    comment = TextAreaField('Leave a comment',validators=[DataRequired()])
+    submit = SubmitField('Comment')        
