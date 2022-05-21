@@ -1,5 +1,16 @@
 {% extends "wallart.html"%}
+
+
+
 {% block content%}
+  <div class="card mb-4" >
+    <div class="card-body">
+      <h5 class="card-title">{{random_quote.author}}</h5>
+      <p class="card-text">{{random_quote.quote}}</p>
+      
+    </div>
+  </div>
+
     {%for post in posts%}
     <article class="media content-section">
         <img class="rounded-circle article-img" src="{{url_for('static' ,filename='images/kc.jpg')}}">
