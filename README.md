@@ -40,3 +40,18 @@ Inputs Description Username Account username, eg Brian Email User email, eg bria
 
 Inputs Description Heading Blog title eg; Ux/Ui blog text The actual blog body Comment A comment on the blog
 
+
+  USER STORY
+Users can see the blogs other people have posted.
+
+Users can sign in to leave a comment.
+
+Users can register on the website.
+
+Users can view the blogs they have created in their profile page..
+
+Users can comment on the different blog .
+
+Users can view the blogs.
+
+
