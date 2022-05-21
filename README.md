@@ -28,6 +28,15 @@ Commit your changes (git commit -am 'Improve feature')
 Push to the branch (git push origin improve-feature)
 Create a Pull Request
 
-REQUIREMENTS
+  REQUIREMENTS
 
 The project has dependecies that require Flask together with PIP. So make sure you have these installed and working before proceeding. Can also refer from the technologies used below.
+
+  LOGIN INPUTS
+
+Inputs Description Username (Account username), eg Brian Password Account password, eg test Signup inputs
+
+Inputs Description Username Account username, eg Brian Email User email, eg brian@gmail.com Password Account password, eg test Confirm Password Account password, eg test Blog inputs
+
+Inputs Description Heading Blog title eg; Ux/Ui blog text The actual blog body Comment A comment on the blog
+
