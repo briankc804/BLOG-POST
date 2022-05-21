@@ -57,9 +57,13 @@ Users can view the blogs.
   TECHNOLOGIES 
 
 Python 3.10
+
 Flask
+
 Html
+
 Css
+
 Bootstrap
 
 
